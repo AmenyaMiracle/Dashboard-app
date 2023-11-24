@@ -1,0 +1,81 @@
+/* NotificationsList.css */
+
+.notifications {
+  margin-top: -7px;
+}
+
+.notifications-list {
+  position: absolute;
+  max-height: 200px; /* Set a max height for the notifications list */
+  overflow-y: auto; /* Add a scrollbar when notifications exceed the max height */
+  overflow: hidden;
+  font-size: 10px;
+  margin-top: -20px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.notification-icon {
+  font-size: 10px; /* Adjust the size as needed */
+  margin-right: 10px; /* Add margin between icon and content *//* NotificationsList.css */
+
+  .notifications {
+    margin-top: -7px;
+  }
+  
+  .notifications-list {
+    position: absolute;
+    max-height: 200px; /* Set a max height for the notifications list */
+    overflow-y: auto; /* Add a scrollbar when notifications exceed the max height */
+    overflow: hidden;
+    font-size: 10px;
+    margin-top: -20px;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .notification-icon {
+    font-size: 10px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add margin between icon and content */
+    opacity: 50%;
+  }
+  
+  .notification-content {
+    flex-grow: 1; /* Allow content to take up remaining space */
+    margin: 0;
+  }
+  
+  .notification-content p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .notification-timestamp {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+  }
+  
+}
+
+.notification-content {
+  flex-grow: 1; /* Allow content to take up remaining space */
+  margin: 0;
+}
+
+.notification-content p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.notification-timestamp {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
