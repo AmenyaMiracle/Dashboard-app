@@ -22,7 +22,7 @@ const NotificationsList = () => {
   }, [generateNotification]);
 
   useEffect(() => {
-    const intervalId = setInterval(addNotification, 100000); // Add a new notification every 5 seconds
+    const intervalId = setInterval(addNotification, 50000); // Add a new notification every 5 seconds
     return () => clearInterval(intervalId);
   }, [addNotification]);
 
