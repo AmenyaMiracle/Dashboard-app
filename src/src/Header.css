@@ -1,0 +1,57 @@
+/* Header.css */
+
+.header {
+  background-color: #ffffff;
+  color: #575757;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #EFEFEF;
+  background: #FFF;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 {
+  font-size: 13.5px;
+  margin-left: 1px;
+}
+
+/* Header.css */
+
+.header {
+  background-color: #ffffff;
+  color: #575757;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #EFEFEF;
+  background: #FFF;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 {
+  font-size: 13.5px;
+  margin-left: 1px;
+}
+
+.searchinputdesign{
+  margin-left: -420px;
+  background-color: #dfdfdf;
+  opacity: 50%;
+  border: none;
+  width: 130px;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 3px 0 3px 5px;
+}
+

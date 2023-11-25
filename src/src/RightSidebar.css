@@ -1,0 +1,50 @@
+/* RightSidebar.css */
+
+.right-sidebar {
+  width: 200px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-left: 1px solid #EFEFEF;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.notifications-list {
+  padding: 0;
+}
+
+.notifications-list h6 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  margin-top: 270px;
+  font-size: 11px;
+}
+
+.contact-list-container {
+  margin-top: 10px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.contact-name {
+  margin: 0;
+}
+
+.contact-status {
+  margin: 0;
+  color: #888;
+}
+
+
+/* Add styles for your notification components here */

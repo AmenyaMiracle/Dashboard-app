@@ -1,0 +1,82 @@
+/* DashboardContent.css */
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center; /* Center the content */
+  margin-top: 20px;
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  width: 159px;
+  height: 80px;
+  background-color: #f1fbff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.metric-title {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #333;
+  text-align: center; /* Center the text */
+}
+
+.metric-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4778ad;
+  margin: 0;
+  text-align: center; /* Center the text */
+}
+
+.chart-container {
+  width: 80%;
+  max-width: 800px;
+  height: 300px;
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.chart-container canvas {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.doughnut-chart-container {
+  position: absolute;
+  width: 20%;
+  max-width: 800px;
+  height: 300px;
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 145px; /* Adjust margin-top as needed */
+  margin-left: 450px;
+}
+
+.doughnut-chart-container canvas {
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-top: 20px; /* Add additional margin-top to separate from the bar chart */
+}
+
+.money-metric-value{
+  position: absolute;
+  margin-left: -350px;
+  font-weight: bold;
+  color: #4778ad;
+}

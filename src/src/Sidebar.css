@@ -1,0 +1,140 @@
+/* Sidebar.css */
+.sidebar {
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #353535;
+  width: 200px;
+  height: 100%; /* Set height to 100% to cover the entire height */
+  position: fixed;
+  top: 0; /* Position it at the top */
+  left: 0; /* Align it to the left */
+  border-right: 1px solid #EFEFEF;
+}
+
+
+.profile-name{
+  position: absolute;
+  margin-top: -22px;
+  font-weight: 500;
+  margin-left: 55px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* Add margin for spacing */
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.profileimage{
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 17px;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li i {
+  margin-right: 8px; /* Adjust the value as needed */
+}
+
+
+/* Adjust Header.css to give space for the sidebar */
+.header {
+  margin-left: 200px; /* Adjust the margin to match the width of the sidebar */
+  /* Add any other styles you need for the header */
+}
+
+.second-line-sidebar {
+  position: fixed;
+  top: 110px; /* Adjust the top position as needed */
+  left: 0; /* Align it to the left */
+
+  background-color: #ffffff; /* Example background color */
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.third-line-sidebar{
+  position: fixed;
+  top: 280px; /* Adjust the top position as needed */
+  left: 0; /* Align it to the left */
+  background-color: #ffffff; /* Example background color */
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+/* Sidebar.css */
+
+/* Common styles for list items in all ul elements */
+.sidebar ul,
+.second-line-sidebar,
+.third-line-sidebar {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+/* Common styles for list items */
+.sidebar li,
+.second-line-sidebar li,
+.third-line-sidebar li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 15px;
+  width: 140px;
+  padding: 5px; /* Adjust the padding as needed */
+}
+
+/* Hover effect for list items */
+.sidebar li:hover,
+.second-line-sidebar li:hover,
+.third-line-sidebar li:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  padding-bottom: 8px;
+  padding-top: -10px;
+}
+
+.sidebar-header::before {
+  content: ''; /* Empty content to create the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Initial background color */
+  z-index: -1; /* Place the pseudo-element behind the content */
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.sidebar-header:hover::before {
+  background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+.sidebar-header img {
+  margin-right: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.sidebar-header:hover {
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Add any other styles for the sidebar content */
+
